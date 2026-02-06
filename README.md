@@ -100,7 +100,7 @@ http://127.0.0.1:8000/docs
 
 Use `/analyze` endpoint to upload image.
 
-## 📡 API Response Example
+## API Response Example
 ```json
 {
   "total_oranges_detected": 92,
