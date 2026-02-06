@@ -27,8 +27,7 @@ Built with FastAPI + Roboflow + Google Gemini.
 Image Upload  
 ↓  
 Roboflow Detection (oranges + boxes)  
-↓  
-Crop oranges (Pillow)  
+
 ↓  
 Gemini Vision classification  
 ↓  
@@ -50,7 +49,6 @@ Orange_app/
 │ ├── gemini.py
 │ └── init.py
 │
-├── crops/  -> Generated orange crops
 ├── annotated.jpg -> box output
 ├── .env -> add the api keys here
 ├── requirements.txt
@@ -118,7 +116,6 @@ Use `/analyze` endpoint to upload image.
 - FastAPI
 - Roboflow
 - Google Gemini Vision
-- Pillow
 - Python 3.10+
 
 ## Notes
