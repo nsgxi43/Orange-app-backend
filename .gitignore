@@ -1,8 +1,0 @@
-venv/
-__pycache__/
-.env
-*.jpg
-*.png
-*.pyc
-.DS_Store
-
